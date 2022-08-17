@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container1">
+        <div class="container">
+            <div class = "home">
+                <h1>HOME</h1>
+                <div class="score-board" id="home-score-board">0</div>
+                <div>
+                    <button class="btn" id="home-btn1" onclick="homeAdd(1)">+1</button>
+                    <button class="btn" id="home-btn2" onclick="homeAdd(2)">+2</button>
+                    <button class="btn" id="home-btn3" onclick="homeAdd(3)">+3</button>
+                </div>
+            </div>
+            <div class="guest">
+                <h1>GUEST</h1>
+                <div class="score-board" id="guest-score-board">0</div>
+                <div>
+                    <button class="btn" id="guest-btn1" onclick="guestAdd(1)">+1</button>
+                    <button class="btn" id="guest-btn2" onclick="guestAdd(2)">+2</button>
+                    <button class="btn" id="guest-btn3" onclick="guestAdd(3)">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="reset-btn" onclick="reset()">RESET</button>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
