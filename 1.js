@@ -1,4 +1,4 @@
-let el123 = document.getElementById('abc123')
+let el123 = document.getElementById('myBtn')
 
 
-el123.addEventListener('click', console.log('hi'))
+el123.addEventListener('click', function(){console.log('hi')})

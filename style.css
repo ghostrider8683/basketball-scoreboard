@@ -1,5 +1,5 @@
 @font-face{
-    src: url('./CursedTimer.ttf');
+    src: url('../CursedTimer.ttf');
     font-family:CursedTimer;
 }
 
@@ -21,7 +21,6 @@ body{
 }
 
 .container{
-
     width:600px;
     display:flex;
     justify-content: space-around;
